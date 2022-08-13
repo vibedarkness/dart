@@ -12,4 +12,7 @@ void main(List<String> args) {
   for (var a in maListe) {
     print(a[2]);
   }
+  for (var i = 0; i < maListe.length; i++) {
+    print("element numero $i = " + maListe[i]);
+  }
 }
