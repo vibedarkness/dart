@@ -5,7 +5,6 @@ void main() {
   var q, w, f;
   print("Veuillez saisir votre premier valeur : ");
   var a = stdin.readLineSync();
-  print(a.runtimeType);
   print("Veuillez saisir votre deuxieme valeur : ");
   var b = stdin.readLineSync();
   print("Veuillez saisir votre troixieme valeur : ");
