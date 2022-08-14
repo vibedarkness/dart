@@ -17,6 +17,7 @@ void main() {
   if (q <= 0) {
     print("l'equation n4est pa du second degres ");
   } else if (q > 0) {
-    // int delta = pow(w, 2) - 4 * q * f;
+    var delta = pow(w, 2) - (4 * q * f);
+    print(delta);
   }
 }
